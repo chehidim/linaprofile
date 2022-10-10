@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #27ff93;
+}
+/*------------------------------------
+----------SECTION HOME --------------
+----*/
+.home{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(4, 40, 54);
+}
+.home nav span{
+    color: #ff274b;
+}
+h2{
+    cursor: pointer;
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+}
+nav{
+    padding: 38px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 2px 24px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+ul a:hover{
+    transition: 0.4s;
+    color: #27ff93;
+}
+.btn{
+    background-color: #27dfff;
+    color: #1a2f91;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 25px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+}
+.btn:hover{
+    color: rgb(18, 126, 67);
+    transition: 0.3s;
+    border: 3px solid #27dfff;
+    background-color: transparent;
+}
+.content{
+    flex-grow: 1;
+    padding: 0 88px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.definition-text{
+    position: relative;
+    bottom: 70px;
+}
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: rgb(221, 138, 203);
+}
+span{
+    color: #166b8d;
+}
+h4{
+    font-size: medium;
+    color: #7a3fc7;
+}
+h3{
+    font-size: x-large;
+    letter-spacing: 0.8px;
+    color: rgb(221, 138, 203);
+    margin-bottom: 20px;
+}
+h3 span{
+    color: #7a3fc7;
+    text-transform: capitalize;
+}
+.social{
+    margin-top: 20px;
+}
+.social img{
+    margin-right: 20px;
+    width: 30px;
+}
+.social img:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.lina-images{
+    width: 50%;
+    height: 89%;
+    position: relative;
+    align-self: flex-end;
+    position: relative;
+    bottom: 50px;
+    
+}
+.lina-images img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left:50%;
+    transform: translateX(-50%);
+    transition: bottom 1s;
+}
+
+.lina-images:hover .lina{
+    bottom: 10px;
+}
+/*----------------------------------
+--------SECTION ABOUT ME----------
+---*/
+.title h2{
+    color: #27ff93;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-shadow: 0 5px 25px rgb(100, 225, 241);
+}
+.texte-aboutme{
+    text-align: center;
+}
+.title h2 span{
+    color: #ff274b;
+    text-transform: capitalize;
+}
+.aboutme{
+    background-color: #166b8d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.about{
+    padding: 25px;
+    margin: 0px;
+    width: 30%;
+    height: 70%; 
+}
+.about:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.card{
+    background-color: white;
+    width: 15rem;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+p{
+    -webkit-line-clamp: 7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.icon{
+    text-align: center;
+}
+.icon img{
+    font-size: 1px;
+    width: 20%;
+    height: 40%;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #166b8d;
+    font-size: larger;
+    font-weight: 700;
+    margin: 10px;
+}
+/*----------------------------------
+-------SECTION SKILLS --------------
+----*/
+.skills{
+    background-color: rgb(4, 40, 54);
+    padding: 4%;
+}
+.texte-center{
+    text-align: center;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cards{
+    background-color: #22282a;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+.cards:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.i{
+    text-align: center;
+}
+.i img{
+    font-size: 1px;
+    width: 70px;
+    height: 60%;
+}
+.cards h3{
+    color: #ff274b;
+}
+.sk{
+    color: rgb(221, 138, 203);
+}
+/*---------------------------------
+------- SECTION FOOTER--------------
+-----*/
+footer{
+    padding: 32px;
+    background-color: #171a1c;
+}
+footer .content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .content-footer p{
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin-top: 16px;
+}
+footer .content-footer .end{
+    color: #ff274b;
+    margin-top: 16px ;
+}
+.gmail{
+    color: #1c8888;
+}
